@@ -67,6 +67,8 @@ You can enable Geo-Replicatiom using Azure Portal or by calling REST API or Powe
 6. Select the secondary type (*Readable* or *Non-readable*)
 7. Click **Create** to complete the configuration
 
+> [AZURE.NOTE] If you you do not aleady have a server in the replica region, you can create it on the fly.
+
 > [AZURE.NOTE] The DR paired region on the Geo-Replication blade will be marked as *recommended*. If you use a Premium tier database you can choose a different region. If you are using a Standard database you cannot change it. The Premium database will  have a choice of the secondary type (*Readable* or *Non-readable*). Standard database can only select a *Non-readable* secondary.
  
 ###PowerShell
